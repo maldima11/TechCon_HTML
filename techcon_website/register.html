@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <style>
+        table {
+            border: 2px solid #333;
+            font-weight: bold;
+        }
+
+        tr, td {
+            border: 1px solid grey;
+        }
+    </style>
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <h1>Register for TechCon 2024</h1>
+
+        <!-- navigation bar -->
+        <nav>
+            <!-- unordered list for navigation -->
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">Schedule</a></li>
+                <li><a href="schedule.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- main section -->
+    <main>
+        <!-- conference sections -->
+        <section>
+        <!-- Schedule - conference -->
+        <caption>Detailed Schedule of Events for TechCon 2024</caption>
+        <!-- form for registering members -->
+        <form action="" method="post">
+            <!-- username -->
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required minlength="4" maxlength="8" placeholder="Username">
+
+            <!-- email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="example@domain.com">
+            
+            <!-- password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="8" placeholder="Password">
+
+            <!-- terms and Conditions -->
+            <label for="terms-and-conditions">Terms and Conditions</label>
+            <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" required placeholder="checkbox">
+
+            <button type="submit">Register Now</button>
+        </form>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+        copyright 2024 TechCon. All rights reserved. 
+    </footer>
+
+</body>
+</html>
